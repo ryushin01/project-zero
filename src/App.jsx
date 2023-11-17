@@ -1,7 +1,11 @@
-import "tailwindcss/tailwind.css";
+import Router from "./Router";
 
-function App() {
-    return <>project zero</>;
-}
+const App = () => {
+    return (
+        <>
+            <Router />
+        </>
+    );
+};
 
 export default App;
