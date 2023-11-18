@@ -3,7 +3,7 @@ import Router from "./Router";
 const App = () => {
     return (
         <>
-            <Router />
+            <Router className="font-serif" />
         </>
     );
 };
