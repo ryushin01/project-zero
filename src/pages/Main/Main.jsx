@@ -374,7 +374,7 @@ const Main = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="relative w-16 h-16 lg:w-24 lg:h-24 after:content-[''] after:absolute after:top-[-2px] after:right-[-2px] after:w-4 after:h-4 after:bg-[url('/images/icon_crown.png')] after:bg-cover after:bg-no-repeat after:bg-center after:z-[1]">
+                                <div className="relative w-16 h-16 lg:w-24 lg:h-24 after:content-[''] after:absolute after:top-[2px] after:right-[2px] lg:after:top-1 lg:after:right-1 lg:after:top-1 lg:after:right-1 after:w-3 after:h-3 lg:after:w-4 lg:after:h-4 after:bg-[url('/images/icon_crown.png')] after:bg-cover after:bg-no-repeat after:bg-center after:z-[1]">
                                     <img
                                         src="/images/ryushin0.png"
                                         alt="류창선 프로필 사진"
