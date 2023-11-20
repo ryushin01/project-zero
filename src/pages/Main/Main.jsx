@@ -87,7 +87,7 @@ const Main = () => {
                                                         Overview: 지역 중심의
                                                         위치 기반 쇼핑몰 서비스
                                                         / 프론트엔드 개발자 2인
-                                                        참여
+                                                        참여 / 3주 소요
                                                     </span>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         Features: Portal로 모달
@@ -102,12 +102,12 @@ const Main = () => {
                                                         카카오 맵 API의 위도와
                                                         경도로 지도 표시, 라우터
                                                         이동 시 스크롤 초기화,
-                                                        로티 로딩,
+                                                        Lottie 로딩,
                                                         쿼리스트링으로
-                                                        페이지네이션 및 필터 등
+                                                        페이지네이션 및 필터
+                                                        제어 등
                                                     </span>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
-                                                        Etc:&nbsp;
                                                         <a
                                                             href="https://velog.io/@ryushin0/3%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D"
                                                             title="3차 회고록 링크 바로가기"
@@ -132,7 +132,8 @@ const Main = () => {
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         Overview: 인스트그램
                                                         클론 코딩 / 프론트엔드
-                                                        개발자 1인 참여
+                                                        개발자 1인 참여 / 2주
+                                                        소요
                                                     </span>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         Features: 반응형 웹,
@@ -228,11 +229,10 @@ const Main = () => {
                                                 Tech Stacks
                                             </h5>
                                             <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[8px] before:left-1 before:bg-[#000] text-sm">
-                                                HTML Living Standard, Vue.js,
-                                                CSS3, Sass, Tailwind CSS,
+                                                Vue.js, Sass, Tailwind CSS,
                                                 styled-components, JavaScript,
-                                                Storybook, Historie, GitLab,
-                                                Jira & Confluence
+                                                WAI-ARIA, Storybook, Historie,
+                                                GitLab, Jira & Confluence
                                             </span>
                                         </div>
                                     </li>
@@ -304,10 +304,6 @@ const Main = () => {
                                                 <li className="relative pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                     SK브로드밴드 oksusu
                                                 </li>
-                                                <li className="relative pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
-                                                    중앙일보 블록체인 전문
-                                                    미디어 채널 joinD
-                                                </li>
                                             </ul>
                                         </div>
                                         <div className="py-4">
@@ -315,9 +311,9 @@ const Main = () => {
                                                 Tech Stacks
                                             </h5>
                                             <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[8px] before:left-1 before:bg-[#000] text-sm">
-                                                HTML, CSS, JQuery, Sass, Less,
-                                                Github, Bootstrap, Foundation,
-                                                Semantic UI, Jira
+                                                HTML Living Standard, CSS, Sass,
+                                                Less, JQuery, Github, Bootstrap,
+                                                Foundation, Semantic UI, Jira
                                             </span>
                                         </div>
                                     </li>
@@ -378,11 +374,13 @@ const Main = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <img
-                                    src="/images/ryushin0.png"
-                                    alt="류창선 프로필 사진"
-                                    className="w-16 h-16 lg:w-24 lg:h-24 overflow-hidden rounded-full border-solid border border-[#f7f7f7]"
-                                />
+                                <div className="relative w-16 h-16 lg:w-24 lg:h-24 after:content-[''] after:absolute after:top-[-2px] after:right-[-2px] after:w-4 after:h-4 after:bg-[url('/images/icon_crown.png')] after:bg-cover after:bg-no-repeat after:bg-center after:z-[1]">
+                                    <img
+                                        src="/images/ryushin0.png"
+                                        alt="류창선 프로필 사진"
+                                        className="w-full h-full object-contain border-solid border border-[#f7f7f7] overflow-hidden rounded-full"
+                                    />
+                                </div>
                             </div>
                         </div>
                     </section>
