@@ -11,5 +11,4 @@
     -   <img src="https://img.shields.io/badge/Github-181717?style=flat-square&amp;logo=Github&amp;logoColor=white">
 
 -   구현 기능
-    -   로티(lottie) 로딩
-    -
+    -   N/A

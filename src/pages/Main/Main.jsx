@@ -21,15 +21,16 @@ const Main = () => {
                     {/* About Me */}
                     <section>
                         <hgroup className="flex flex-col justify-between">
-                            <h1 className="py-6 text-3xl lg:text-5xl leading-snug lg:leading-normal font-bold">
+                            <h1 className="py-6 text-3xl lg:text-5xl leading-snug lg:leading-normal font-black">
                                 안녕하세요,
                                 <br />
                                 저는 류창선입니다.
                             </h1>
-                            <h2 className="py-4 text-xl lg:text-3xl leading-snug lg:leading-normal">
-                                서울에서 마크업 개발자로 6년간 일했으며, 현재는
-                                프론트엔드 개발자로 나아가기 위해 노력하고
-                                있습니다.
+                            <h2 className="py-4 text-xl lg:text-3xl leading-snug lg:leading-normal font-thin">
+                                서울에서 마크업 개발자로 6년간 일했으며, 웹
+                                개발자에게 있어 가장 중요한 것은 웹 표준이라
+                                생각합니다. 현재는 프론트엔드 개발자로 나아가기
+                                위해 노력하고 있습니다.
                             </h2>
                         </hgroup>
                     </section>
@@ -44,15 +45,15 @@ const Main = () => {
                                 <ol className="flex-1">
                                     <li>
                                         <div>
-                                            <h4 className="text-xl">
-                                                &gt;wecode
+                                            <h4 className="text-xl font-semibold">
+                                                wecode
                                             </h4>
-                                            <span className="text-xs font-thin">
+                                            <span className="text-xs font-thin text-[#717171] opacity-60">
                                                 2023.08 - 2023.11
                                             </span>
                                         </div>
                                         <div className="pt-8 pb-4">
-                                            <h5 className="text-base">
+                                            <h5 className="text-lg font-semibold">
                                                 Description
                                             </h5>
                                             <span className="text-sm">
@@ -71,12 +72,14 @@ const Main = () => {
                                             </span>
                                         </div>
                                         <div className="py-4">
-                                            <h5 className="text-base">Works</h5>
+                                            <h5 className="text-lg font-semibold">
+                                                Works
+                                            </h5>
                                             <ul className="flex flex-col gap-4 text-sm">
                                                 <li className="relative pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                     <a
-                                                        href="#"
-                                                        title="프로젝트 커넥션"
+                                                        href="https://ryushin01.github.io/connection/"
+                                                        title="커넥션 바로 가기"
                                                         target="_blank"
                                                         rel="noopener noreferrer"
                                                         className="text-primary"
@@ -108,9 +111,14 @@ const Main = () => {
                                                         제어 등
                                                     </span>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
+                                                        Tech Stacks: React,
+                                                        styled-components,
+                                                        JavaScript, Redux, CRA
+                                                    </span>
+                                                    <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         <a
                                                             href="https://velog.io/@ryushin0/3%EC%B0%A8-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%ED%9A%8C%EA%B3%A0%EB%A1%9D"
-                                                            title="3차 회고록 링크 바로가기"
+                                                            title="3차 회고록 바로 가기"
                                                             target="_blank"
                                                             rel="noopener noreferrer"
                                                             className="inline-flex items-center gap-1 text-primary after:content-[''] after:inline-block after:w-3 after:h-3 after:bg-[url('/images/icon_link.png')] after:bg-cover"
@@ -121,48 +129,57 @@ const Main = () => {
                                                 </li>
                                                 <li className="relative pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                     <a
-                                                        href="#"
-                                                        title="프로젝트 호키"
+                                                        href="https://ryushin01.github.io/sprout/"
+                                                        title="프로젝트 스프라우트 바로 가기"
                                                         target="_blank"
                                                         rel="noopener noreferrer"
                                                         className="text-primary"
                                                     >
-                                                        HOKI
+                                                        sprout
                                                     </a>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         Overview: 인스트그램
                                                         클론 코딩 / 프론트엔드
-                                                        개발자 1인 참여 / 2주
+                                                        개발자 1인 참여 / 1주
                                                         소요
                                                     </span>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         Features: 반응형 웹,
-                                                        태마 스위치(Sass ver.),
+                                                        테마 스위치(Sass ver.),
                                                         소셜 로그인, 싱글 및
                                                         멀티 이미지 업로드,
                                                         이미지 스와이퍼 등
                                                     </span>
+                                                    <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
+                                                        Tech Stacks: React,
+                                                        Sass, JavaScript, Axios,
+                                                        Vite
+                                                    </span>
                                                 </li>
-                                                <li className="hidden relative pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
+                                                <li className="relative pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                     project zero
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         Overview: 포트폴리오 웹
                                                         사이트
                                                     </span>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
-                                                        Features: -
+                                                        Features: N/A
+                                                    </span>
+                                                    <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
+                                                        Tech Stacks: React,
+                                                        Tailwind CSS, Vite
                                                     </span>
                                                 </li>
                                             </ul>
                                         </div>
                                         <div className="py-4">
-                                            <h5 className="text-base">
+                                            <h5 className="text-lg font-semibold">
                                                 Tech Stacks
                                             </h5>
                                             <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[8px] before:left-1 before:bg-[#000] text-sm">
                                                 React, Sass, Tailwind CSS,
                                                 styled-components, JavaScript,
-                                                Vite.js, Redux, Axios
+                                                Vite, Redux, Axios
                                             </span>
                                         </div>
                                     </li>
@@ -175,15 +192,15 @@ const Main = () => {
                                 <ol className="flex-1">
                                     <li>
                                         <div>
-                                            <h4 className="text-xl">
+                                            <h4 className="text-xl font-semibold">
                                                 콘텐츠웨이브(주)
                                             </h4>
-                                            <span className="text-xs font-thin">
+                                            <span className="text-xs font-thin text-[#717171] opacity-60">
                                                 2019.06 - 2023.07
                                             </span>
                                         </div>
                                         <div className="pt-8 pb-4">
-                                            <h5 className="text-base">
+                                            <h5 className="text-lg font-semibold">
                                                 Description
                                             </h5>
                                             <span className="text-sm">
@@ -203,7 +220,9 @@ const Main = () => {
                                             </span>
                                         </div>
                                         <div className="py-4">
-                                            <h5 className="text-base">Works</h5>
+                                            <h5 className="text-lg font-semibold">
+                                                Works
+                                            </h5>
                                             <ul className="flex flex-col text-sm">
                                                 <li className="relative pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                     Wavve PC web 구축 및 운영
@@ -225,28 +244,29 @@ const Main = () => {
                                             </ul>
                                         </div>
                                         <div className="py-4">
-                                            <h5 className="text-base">
+                                            <h5 className="text-lg font-semibold">
                                                 Tech Stacks
                                             </h5>
                                             <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[8px] before:left-1 before:bg-[#000] text-sm">
                                                 Vue.js, Sass, Tailwind CSS,
-                                                styled-components, JavaScript,
-                                                WAI-ARIA, Storybook, Historie,
-                                                GitLab, Jira & Confluence
+                                                UnoCSS, styled-components,
+                                                JavaScript, WAI-ARIA, Storybook,
+                                                Historie, GitLab, Jira &
+                                                Confluence
                                             </span>
                                         </div>
                                     </li>
                                     <li className="py-8">
                                         <div>
-                                            <h4 className="text-xl">
+                                            <h4 className="text-xl font-semibold">
                                                 (주)아메바
                                             </h4>
-                                            <span className="text-xs font-thin">
+                                            <span className="text-xs font-thin text-[#717171] opacity-60">
                                                 2017.06 - 2019.05
                                             </span>
                                         </div>
                                         <div className="pt-8 pb-4">
-                                            <h5 className="text-base">
+                                            <h5 className="text-lg font-semibold">
                                                 Description
                                             </h5>
                                             <span className="text-sm">
@@ -258,7 +278,7 @@ const Main = () => {
                                                     rel="noopener noreferrer"
                                                     className="text-primary"
                                                 >
-                                                    amȯėba
+                                                    amoeba
                                                 </a>
                                                 에서 다양한 서비스 구축을
                                                 담당했습니다. 구체적으로
@@ -281,7 +301,9 @@ const Main = () => {
                                             </span>
                                         </div>
                                         <div className="py-4">
-                                            <h5 className="text-base">Works</h5>
+                                            <h5 className="text-lg font-semibold">
+                                                Works
+                                            </h5>
                                             <ul className="flex flex-col text-sm">
                                                 <li className="relative pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                     KT.com
@@ -307,7 +329,7 @@ const Main = () => {
                                             </ul>
                                         </div>
                                         <div className="py-4">
-                                            <h5 className="text-base">
+                                            <h5 className="text-lg font-semibold">
                                                 Tech Stacks
                                             </h5>
                                             <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[8px] before:left-1 before:bg-[#000] text-sm">
@@ -329,7 +351,7 @@ const Main = () => {
                                 <div className="flex flex-col items-end gap-4 order-1 lg:order-none">
                                     <h6 className="text-base text-right">
                                         류창선(ryushin0)
-                                        <em className="block text-xs font-thin not-italic">
+                                        <em className="block text-xs font-thin text-[#717171] opacity-60 not-italic tracking-wide">
                                             Front-End Developer
                                         </em>
                                     </h6>
