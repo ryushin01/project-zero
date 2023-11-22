@@ -146,7 +146,8 @@ const Main = () => {
                                                         테마 스위치(Sass ver.),
                                                         소셜 로그인, 싱글 및
                                                         멀티 이미지 업로드,
-                                                        이미지 스와이퍼 등
+                                                        이미지 스와이퍼, Axios
+                                                        모듈화 등
                                                     </span>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         Tech Stacks: React,
