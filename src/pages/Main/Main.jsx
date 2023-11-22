@@ -18,7 +18,6 @@ const Main = () => {
             {loading && <Loading />}
             <main className="w-full h-full before:content-[''] before:fixed before:top-0 before:w-full before:border-t-8 before:border-solid before:border-t-[#000] after:content-[''] after:fixed after:bottom-0 after:w-full after:border-b-8 after:border-solid after:border-b-[#000]">
                 <div className="flex flex-col w-3/4 lg:w-2/3 m-auto py-6 before:content-[''] before:fixed before:top-0 before:left-0 before:h-full before:border-l-8 before:border-solid before:border-l-[#000] after:content-[''] after:fixed after:top-0 after:right-0 after:h-full after:border-r-8 after:border-solid after:border-r-[#000]">
-                    {/* About Me */}
                     <section>
                         <hgroup className="flex flex-col justify-between">
                             <h1 className="py-6 text-3xl lg:text-5xl leading-snug lg:leading-normal font-black">
@@ -35,7 +34,6 @@ const Main = () => {
                         </hgroup>
                     </section>
 
-                    {/* Career */}
                     <section>
                         <ol>
                             <li className="flex gap-4 py-8 flex-col lg:flex-row">
@@ -46,7 +44,7 @@ const Main = () => {
                                     <li>
                                         <div>
                                             <h4 className="text-xl font-semibold">
-                                                wecode
+                                                위코드
                                             </h4>
                                             <span className="text-xs font-thin text-[#717171] opacity-60">
                                                 2023.08 - 2023.11
@@ -87,9 +85,9 @@ const Main = () => {
                                                         Connection
                                                     </a>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
-                                                        Overview: 지역 중심의
-                                                        위치 기반 쇼핑몰 서비스
-                                                        / 프론트엔드 개발자 2인
+                                                        Overview: 위치 기반
+                                                        쇼핑몰 서비스 /
+                                                        프론트엔드 개발자 2인
                                                         참여 / 3주 소요
                                                     </span>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
@@ -179,7 +177,7 @@ const Main = () => {
                                             <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[8px] before:left-1 before:bg-[#000] text-sm">
                                                 React, Sass, Tailwind CSS,
                                                 styled-components, JavaScript,
-                                                Vite, Redux, Axios
+                                                Redux, Axios, CRA, Vite
                                             </span>
                                         </div>
                                     </li>
@@ -190,7 +188,7 @@ const Main = () => {
                                     Markup Developer
                                 </h3>
                                 <ol className="flex-1">
-                                    <li>
+                                    <li className="pb-8">
                                         <div>
                                             <h4 className="text-xl font-semibold">
                                                 콘텐츠웨이브(주)
@@ -256,7 +254,7 @@ const Main = () => {
                                             </span>
                                         </div>
                                     </li>
-                                    <li className="py-8">
+                                    <li className="py-8 border-t border-solid border-[#eee]">
                                         <div>
                                             <h4 className="text-xl font-semibold">
                                                 (주)아메바
@@ -344,7 +342,6 @@ const Main = () => {
                         </ol>
                     </section>
 
-                    {/* Contact */}
                     <section>
                         <div className="flex justify-between items-center py-8 before:content-[''] before:block before:w-0 before:h-full lg:before:w60">
                             <div className="flex items-end lg:items-center gap-4 flex-col lg:flex-row">
