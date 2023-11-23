@@ -23,7 +23,7 @@ const Main = () => {
                             <h1 className="py-6 text-3xl lg:text-5xl leading-snug lg:leading-normal font-black">
                                 안녕하세요,
                                 <br />
-                                저는 류창선입니다.
+                                류창선입니다.
                             </h1>
                             <h2 className="py-4 text-xl lg:text-3xl leading-snug lg:leading-normal font-thin">
                                 서울에서 마크업 개발자로 6년간 일했으며, 웹
@@ -138,14 +138,14 @@ const Main = () => {
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         Overview: 인스트그램
                                                         클론 코딩 / 프론트엔드
-                                                        개발자 1인 참여 / 1주
+                                                        개발자 1인 참여 / 2주
                                                         소요
                                                     </span>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         Features: 반응형 웹,
                                                         테마 스위치(Sass ver.),
-                                                        소셜 로그인, 싱글 및
-                                                        멀티 이미지 업로드,
+                                                        카카오 소셜 로그인, 싱글
+                                                        및 멀티 이미지 업로드,
                                                         이미지 스와이퍼, Axios
                                                         모듈화 등
                                                     </span>
@@ -175,7 +175,7 @@ const Main = () => {
                                             <h5 className="text-lg font-semibold">
                                                 Tech Stacks
                                             </h5>
-                                            <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[8px] before:left-1 before:bg-[#000] text-sm">
+                                            <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000] text-sm">
                                                 React, Sass, Tailwind CSS,
                                                 styled-components, JavaScript,
                                                 Redux, Axios, CRA, Vite
@@ -246,7 +246,7 @@ const Main = () => {
                                             <h5 className="text-lg font-semibold">
                                                 Tech Stacks
                                             </h5>
-                                            <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[8px] before:left-1 before:bg-[#000] text-sm">
+                                            <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000] text-sm">
                                                 Vue.js, Sass, Tailwind CSS,
                                                 UnoCSS, styled-components,
                                                 JavaScript, WAI-ARIA, Storybook,
@@ -331,7 +331,7 @@ const Main = () => {
                                             <h5 className="text-lg font-semibold">
                                                 Tech Stacks
                                             </h5>
-                                            <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[8px] before:left-1 before:bg-[#000] text-sm">
+                                            <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000] text-sm">
                                                 HTML Living Standard, CSS, Sass,
                                                 Less, JQuery, Github, Bootstrap,
                                                 Foundation, Semantic UI, Jira
