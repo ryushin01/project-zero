@@ -16,8 +16,8 @@ const Main = () => {
     return (
         <>
             {loading && <Loading />}
-            <main className="w-full h-full before:content-[''] before:fixed before:top-0 before:w-full before:border-t-8 before:border-solid before:border-t-[#000] after:content-[''] after:fixed after:bottom-0 after:w-full after:border-b-8 after:border-solid after:border-b-[#000]">
-                <div className="flex flex-col w-3/4 lg:w-2/3 m-auto py-6 before:content-[''] before:fixed before:top-0 before:left-0 before:h-full before:border-l-8 before:border-solid before:border-l-[#000] after:content-[''] after:fixed after:top-0 after:right-0 after:h-full after:border-r-8 after:border-solid after:border-r-[#000]">
+            <main className="w-full h-full before:content-[''] before:fixed before:top-0 before:left-0 before:h-full before:border-l-8 before:border-solid before:border-l-[#000] after:content-[''] after:fixed after:top-0 after:right-0 after:h-full after:border-r-8 after:border-solid after:border-r-[#000]">
+                <div className="flex flex-col w-3/4 lg:w-2/3 m-auto py-6 before:content-[''] before:fixed before:top-0 before:left-0 before:w-full before:border-t-8 before:border-solid before:border-t-[#000] after:content-[''] after:fixed after:bottom-0 after:left-0 after:w-full after:border-b-8 after:border-solid after:border-b-[#000] before:z-10 after:z-10">
                     <section>
                         <hgroup className="flex flex-col justify-between">
                             <h1 className="py-6 text-3xl lg:text-5xl leading-snug lg:leading-normal font-black">
@@ -184,7 +184,7 @@ const Main = () => {
                                     </li>
                                 </ol>
                             </li>
-                            <li className="flex gap-4 py-8 flex-col lg:flex-row">
+                            <li className="flex gap-4 py-8 flex-col lg:flex-row relative before:content-[''] before:block before:w-2 before:h-2 before:bg-[#eee] before:rotate-45 before:absolute before:top-[-4px] before:left-1/2 before:translate-x-[-50%] after:content-[''] after:block after:w-full after:h-[1px] after:bg-[#eee] after:absolute after:top-0 after:left-1/2 after:translate-x-[-50%]">
                                 <h3 className="basis-0 lg:basis-60 text-xl font-bold">
                                     Markup Developer
                                 </h3>
@@ -311,7 +311,7 @@ const Main = () => {
                                                     현대카드 라이브러리
                                                 </li>
                                                 <li className="relative pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
-                                                    삼성 SDS Brightics IoT 2.0
+                                                    삼성SDS Brightics IoT 2.0
                                                 </li>
                                                 <li className="relative pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                     삼성SDS 알파법 시스템
