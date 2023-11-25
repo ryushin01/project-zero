@@ -27,16 +27,17 @@ const Main = () => {
                             </h1>
                             <h2 className="py-4 text-xl lg:text-3xl leading-snug lg:leading-normal font-thin">
                                 서울에서 마크업 개발자로 6년간 일했으며, 웹
-                                개발자에게 있어 가장 중요한 것은 웹 표준이라
-                                생각합니다. 현재는 프론트엔드 개발자로 나아가기
-                                위해 노력하고 있습니다.
+                                개발자에게 있어 가장 중요한 것은&nbsp;
+                                <span className="text-primary">웹 표준</span>
+                                이라 생각합니다. 현재는 프론트엔드 개발자로
+                                나아가기 위해 노력하고 있습니다.
                             </h2>
                         </hgroup>
                     </section>
 
                     <section>
                         <ol>
-                            <li className="flex gap-4 py-8 flex-col lg:flex-row">
+                            <li className="flex gap-8 lg:gap-4 py-8 flex-col lg:flex-row">
                                 <h3 className="basis-0 lg:basis-60 text-xl font-bold">
                                     Front-End Developer
                                 </h3>
@@ -111,7 +112,8 @@ const Main = () => {
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         Tech Stacks: React,
                                                         styled-components,
-                                                        JavaScript, Redux, CRA
+                                                        JavaScript, Redux, CRA,
+                                                        JSDoc
                                                     </span>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         <a
@@ -178,13 +180,13 @@ const Main = () => {
                                             <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000] text-sm">
                                                 React, Sass, Tailwind CSS,
                                                 styled-components, JavaScript,
-                                                Redux, Axios, CRA, Vite
+                                                Redux, Axios, CRA, Vite, JSDoc
                                             </span>
                                         </div>
                                     </li>
                                 </ol>
                             </li>
-                            <li className="flex gap-4 py-8 flex-col lg:flex-row relative before:content-[''] before:block before:w-2 before:h-2 before:bg-[#eee] before:rotate-45 before:absolute before:top-[-4px] before:left-1/2 before:translate-x-[-50%] after:content-[''] after:block after:w-full after:h-[1px] after:bg-[#eee] after:absolute after:top-0 after:left-1/2 after:translate-x-[-50%]">
+                            <li className="flex gap-8 lg:gap-4 pt-12 flex-col lg:flex-row relative before:content-[''] before:block before:w-2 before:h-2 before:bg-[#eee] before:rotate-45 before:absolute before:top-[-4px] before:left-1/2 before:translate-x-[-50%] after:content-[''] after:block after:w-full after:h-[1px] after:bg-[#eee] after:absolute after:top-0 after:left-1/2 after:translate-x-[-50%]">
                                 <h3 className="basis-0 lg:basis-60 text-xl font-bold">
                                     Markup Developer
                                 </h3>
@@ -344,7 +346,7 @@ const Main = () => {
                     </section>
 
                     <section>
-                        <div className="flex justify-between items-center py-8 before:content-[''] before:block before:w-0 before:h-full lg:before:w60">
+                        <div className="flex justify-between items-center py-6 before:content-[''] before:block before:w-0 before:h-full lg:before:w60">
                             <div className="flex items-end lg:items-center gap-4 flex-col lg:flex-row">
                                 <div className="flex flex-col items-end gap-4 order-1 lg:order-none">
                                     <h6 className="text-base text-right">
