@@ -27,7 +27,7 @@ const Main = () => {
                             </h1>
                             <h2 className="py-4 text-xl lg:text-3xl leading-snug lg:leading-normal font-thin">
                                 서울에서 마크업 개발자로 6년간 일했으며, 웹
-                                개발자에게 있어 가장 중요한 것은&nbsp;
+                                개발자에게 있어서 가장 중요한 것은&nbsp;
                                 <span className="text-primary">웹 표준</span>을
                                 지키는 것이라 생각합니다. 현재는 프론트엔드
                                 개발자로 나아가기 위해 노력하고 있습니다.
