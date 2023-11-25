@@ -1,6 +1,5 @@
 import { useEffect, useState } from "react";
 import Loading from "../../components/Loading/Loading";
-import Footer from "../../components/Footer/Footer";
 import { ReactComponent as IconGmail } from "../../assets/svg/contact/icon_gmail.svg";
 import { ReactComponent as IconGithub } from "../../assets/svg/contact/icon_github.svg";
 import { ReactComponent as IconVelog } from "../../assets/svg/contact/icon_velog.svg";
@@ -407,7 +406,6 @@ const Main = () => {
                         </div>
                     </section>
                 </div>
-                <Footer />
             </main>
         </>
     );
