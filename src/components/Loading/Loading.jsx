@@ -4,7 +4,7 @@ import { ReactComponent as IconVite } from "../../assets/svg/career/icon_vite.sv
 
 const Loading = () => {
     return (
-        <div className="fixed inset-0 z-10 flex flex-col justify-center items-center gap-12 bg-[#000] text-[#fff]">
+        <div className="fixed inset-0 z-20 flex flex-col justify-center items-center gap-12 bg-[#000] text-[#fff]">
             <img
                 src="/images/logo_white.png"
                 alt="project zero logo"
