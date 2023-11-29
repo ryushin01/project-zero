@@ -63,7 +63,7 @@ const Main = () => {
                                                     title="오프라인 부트캠프 wecode 웹 사이트 바로 가기"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full"
+                                                    className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-ful z-10l"
                                                 >
                                                     wecode
                                                 </a>
@@ -82,7 +82,7 @@ const Main = () => {
                                                         title="커넥션 바로 가기"
                                                         target="_blank"
                                                         rel="noopener noreferrer"
-                                                        className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full"
+                                                        className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full z-10"
                                                     >
                                                         Connection
                                                     </a>
@@ -122,7 +122,7 @@ const Main = () => {
                                                             title="3차 회고록 바로 가기"
                                                             target="_blank"
                                                             rel="noopener noreferrer"
-                                                            className="inline-flex items-center gap-1 text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full after:content-[''] after:inline-block after:w-3 after:h-3 after:bg-[url('/images/icon_link.png')] after:bg-cover"
+                                                            className="inline-flex items-center gap-1 text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full after:content-[''] after:inline-block after:w-3 after:h-3 after:bg-[url('/images/icon_link.png')] after:bg-cover z-10"
                                                         >
                                                             회고록 링크
                                                         </a>
@@ -134,7 +134,7 @@ const Main = () => {
                                                         title="프로젝트 스프라우트 바로 가기"
                                                         target="_blank"
                                                         rel="noopener noreferrer"
-                                                        className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full"
+                                                        className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full z-10"
                                                     >
                                                         sprout
                                                     </a>
@@ -212,7 +212,7 @@ const Main = () => {
                                                     title="Wavve 서비스 바로 가기"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full"
+                                                    className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full z-10"
                                                 >
                                                     Wavve
                                                 </a>
@@ -278,7 +278,7 @@ const Main = () => {
                                                     title="웹 에이전시 amȯėba 웹 사이트 바로 가기"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full"
+                                                    className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full z-10"
                                                 >
                                                     amoeba
                                                 </a>
@@ -294,7 +294,7 @@ const Main = () => {
                                                     title="2017년 웹 어워드 코리아 수상작 바로 가기"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full"
+                                                    className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full z-10"
                                                 >
                                                     2017년 웹 어워드 코리아
                                                 </a>
