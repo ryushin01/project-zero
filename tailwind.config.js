@@ -4,6 +4,9 @@ export default {
     theme: {
         extend: {},
         colors: {
+            // primary: "rgba(2, 125, 241, 0.7)",
+            // secondary: "rgba(2, 125, 241, 1)",
+            // tertiary: "#760c0c / #a6172d",
             primary: "#027df1",
         },
     },

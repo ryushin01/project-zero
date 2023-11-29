@@ -27,8 +27,10 @@ const Main = () => {
                             <h2 className="py-4 text-xl lg:text-3xl leading-snug lg:leading-normal font-thin">
                                 서울에서 마크업 개발자로 6년간 일했으며, 웹
                                 개발자에게 있어서 가장 중요한 것은&nbsp;
-                                <span className="text-primary">웹 표준</span>을
-                                지키는 것이라 생각합니다. 현재는 프론트엔드
+                                <span className="text-primary font-semibold">
+                                    웹 표준
+                                </span>
+                                을 지키는 것이라 생각합니다. 현재는 프론트엔드
                                 개발자로 나아가기 위해 노력하고 있습니다.
                             </h2>
                         </hgroup>
@@ -61,7 +63,7 @@ const Main = () => {
                                                     title="오프라인 부트캠프 wecode 웹 사이트 바로 가기"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-primary"
+                                                    className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full"
                                                 >
                                                     wecode
                                                 </a>
@@ -80,7 +82,7 @@ const Main = () => {
                                                         title="커넥션 바로 가기"
                                                         target="_blank"
                                                         rel="noopener noreferrer"
-                                                        className="text-primary"
+                                                        className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full"
                                                     >
                                                         Connection
                                                     </a>
@@ -120,7 +122,7 @@ const Main = () => {
                                                             title="3차 회고록 바로 가기"
                                                             target="_blank"
                                                             rel="noopener noreferrer"
-                                                            className="inline-flex items-center gap-1 text-primary after:content-[''] after:inline-block after:w-3 after:h-3 after:bg-[url('/images/icon_link.png')] after:bg-cover"
+                                                            className="inline-flex items-center gap-1 text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full after:content-[''] after:inline-block after:w-3 after:h-3 after:bg-[url('/images/icon_link.png')] after:bg-cover"
                                                         >
                                                             회고록 링크
                                                         </a>
@@ -132,13 +134,13 @@ const Main = () => {
                                                         title="프로젝트 스프라우트 바로 가기"
                                                         target="_blank"
                                                         rel="noopener noreferrer"
-                                                        className="text-primary"
+                                                        className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full"
                                                     >
                                                         sprout
                                                     </a>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
-                                                        Overview: 인스트그램
-                                                        클론 코딩 / 프론트엔드
+                                                        Overview: 소셜 네트워크
+                                                        서비스 / 프론트엔드
                                                         개발자 1인 참여 / 2주
                                                         소요
                                                     </span>
@@ -210,7 +212,7 @@ const Main = () => {
                                                     title="Wavve 서비스 바로 가기"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-primary"
+                                                    className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full"
                                                 >
                                                     Wavve
                                                 </a>
@@ -276,7 +278,7 @@ const Main = () => {
                                                     title="웹 에이전시 amȯėba 웹 사이트 바로 가기"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-primary"
+                                                    className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full"
                                                 >
                                                     amoeba
                                                 </a>
@@ -292,7 +294,7 @@ const Main = () => {
                                                     title="2017년 웹 어워드 코리아 수상작 바로 가기"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-primary"
+                                                    className="text-primary relative before:content-[''] before:inline-block before:w-0 before:h-[1px] before:absolute before:left-0 before:bottom-0 before:bg-primary before:transition-all hover:before:w-full focus:before:w-full"
                                                 >
                                                     2017년 웹 어워드 코리아
                                                 </a>
