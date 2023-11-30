@@ -120,7 +120,7 @@ const Main = () => {
                                                             title="3차 회고록 바로 가기"
                                                             target="_blank"
                                                             rel="noopener noreferrer"
-                                                            className="text-primary hover:text-secondary focus:text-secondary"
+                                                            className="inline-flex items-center gap-1 text-primary hover:text-secondary focus:text-secondary after:content-[''] after:inline-block after:w-3 after:h-3 after:bg-[url('/images/icon_link.png')] after:bg-cover hover:after:bg-[url('/images/icon_link_active.png')] focus:after:bg-[url('/images/icon_link_active.png')]"
                                                         >
                                                             회고록 링크
                                                         </a>
