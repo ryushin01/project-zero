@@ -61,7 +61,7 @@ const Main = () => {
                                                     title="오프라인 부트캠프 wecode 웹 사이트 바로 가기"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-primary hover:text-secondary focus:text-secondary"
+                                                    className="text-secondary hover:text-primary focus:text-primary"
                                                 >
                                                     wecode
                                                 </a>
@@ -80,7 +80,7 @@ const Main = () => {
                                                         title="커넥션 바로 가기"
                                                         target="_blank"
                                                         rel="noopener noreferrer"
-                                                        className="text-primary hover:text-secondary focus:text-secondary"
+                                                        className="text-secondary hover:text-primary focus:text-primary"
                                                     >
                                                         Connection
                                                     </a>
@@ -120,7 +120,7 @@ const Main = () => {
                                                             title="3차 회고록 바로 가기"
                                                             target="_blank"
                                                             rel="noopener noreferrer"
-                                                            className="inline-flex items-center gap-1 text-primary hover:text-secondary focus:text-secondary after:content-[''] after:inline-block after:w-3 after:h-3 after:bg-[url('/images/icon_link.png')] after:bg-cover hover:after:bg-[url('/images/icon_link_active.png')] focus:after:bg-[url('/images/icon_link_active.png')]"
+                                                            className="inline-flex items-center gap-1 text-secondary hover:text-primary focus:text-primary after:content-[''] after:inline-block after:w-3 after:h-3 after:bg-[url('/images/icon_link.png')] after:bg-cover hover:after:bg-[url('/images/icon_link_active.png')] focus:after:bg-[url('/images/icon_link_active.png')]"
                                                         >
                                                             회고록 링크
                                                         </a>
@@ -132,7 +132,7 @@ const Main = () => {
                                                         title="프로젝트 스프라우트 바로 가기"
                                                         target="_blank"
                                                         rel="noopener noreferrer"
-                                                        className="text-primary hover:text-secondary focus:text-secondary"
+                                                        className="text-secondary hover:text-primary focus:text-primary"
                                                     >
                                                         sprout
                                                     </a>
@@ -154,6 +154,33 @@ const Main = () => {
                                                         Tech Stacks: React,
                                                         Sass, JavaScript, Axios,
                                                         Vite
+                                                    </span>
+                                                </li>
+                                                <li className="relative pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
+                                                    <a
+                                                        href="javascript:void(0)"
+                                                        title="untitled 바로 가기"
+                                                        target="_blank"
+                                                        rel="noopener noreferrer"
+                                                        className="text-secondary hover:text-primary focus:text-primary"
+                                                    >
+                                                        untitled
+                                                    </a>
+                                                    <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
+                                                        Overview: 모바일 웹 포탈
+                                                        사이트 / 프론트엔드
+                                                        개발자 1인 참여 / n주
+                                                        소요
+                                                    </span>
+                                                    <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
+                                                        Features: 스와이퍼
+                                                        레이아웃 등
+                                                    </span>
+                                                    <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
+                                                        Tech Stacks: React,
+                                                        styled-components,
+                                                        JavaScript, Axios, Vite,
+                                                        Storybook
                                                     </span>
                                                 </li>
                                                 <li className="relative pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
@@ -179,7 +206,8 @@ const Main = () => {
                                             <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000] text-sm">
                                                 React, Sass, Tailwind CSS,
                                                 styled-components, JavaScript,
-                                                Redux, Axios, CRA, Vite, JSDoc
+                                                Redux, Axios, CRA, Vite,
+                                                Storybook, JSDoc
                                             </span>
                                         </div>
                                     </li>
@@ -210,7 +238,7 @@ const Main = () => {
                                                     title="Wavve 서비스 바로 가기"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-primary hover:text-secondary focus:text-secondary"
+                                                    className="text-secondary hover:text-primary focus:text-primary"
                                                 >
                                                     Wavve
                                                 </a>
@@ -276,7 +304,7 @@ const Main = () => {
                                                     title="웹 에이전시 amȯėba 웹 사이트 바로 가기"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-primary hover:text-secondary focus:text-secondary"
+                                                    className="text-secondary hover:text-primary focus:text-primary"
                                                 >
                                                     amoeba
                                                 </a>
@@ -292,7 +320,7 @@ const Main = () => {
                                                     title="2017년 웹 어워드 코리아 수상작 바로 가기"
                                                     target="_blank"
                                                     rel="noopener noreferrer"
-                                                    className="text-primary hover:text-secondary focus:text-secondary"
+                                                    className="text-secondary hover:text-primary focus:text-primary"
                                                 >
                                                     2017년 웹 어워드 코리아
                                                 </a>
@@ -395,7 +423,7 @@ const Main = () => {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="relative w-16 h-16 lg:w-24 lg:h-24 after:content-[''] after:absolute after:top-0 after:right-0 lg:after:top-1 lg:after:right-1 lg:after:top-[2px] lg:after:right-[2px] after:w-4 after:h-4 lg:after:w-5 lg:after:h-5 after:bg-[url('/images/icon_crown.png')] after:bg-cover after:bg-no-repeat after:bg-center after:z-[1]">
+                                <div className="relative w-16 h-16 lg:w-24 lg:h-24 after:content-[''] after:absolute after:top-0 after:right-0 lg:after:top-[2px] lg:after:right-[2px] after:w-4 after:h-4 lg:after:w-5 lg:after:h-5 after:bg-[url('/images/icon_crown.png')] after:bg-cover after:bg-no-repeat after:bg-center after:z-[1]">
                                     <img
                                         src="/images/ryushin0.png"
                                         alt="류창선 프로필 사진"
