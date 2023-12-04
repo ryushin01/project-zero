@@ -16,5 +16,7 @@ module.exports = {
       'warn',
       { allowConstantExport: true },
     ],
+    // props 미전달 시 오류 메시지 제어
+    'react/prop-types': 'off',
   },
 }
