@@ -164,7 +164,7 @@ const Main = () => {
                                                         rel="noopener noreferrer"
                                                         className="text-secondary hover:text-primary focus:text-primary"
                                                     >
-                                                        azure
+                                                        Azure
                                                     </a>
                                                     <span className="relative block pl-3 before:content-[''] before:block before:w-1 before:h-px before:absolute before:top-[10px] before:left-1 before:bg-[#000]">
                                                         Overview: 모바일 웹 포탈
